@@ -26,7 +26,7 @@
                             &#128065; <!-- Eye icon -->
                         </span>
                     </div>
-                    <button type="submit" class="btn">Login</button>
+                    <button type="submit" class="btn" style="margin-top: 20px">Login</button>
                     </form>
                 </div>
             </center>
