@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "LineSeedSansRegular";
+    font-weight: normal;
+    src: url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.woff2) format('woff2'), 
+        url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.woff) format('woff'), 
+        url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.ttf) format('truetype'); 
+    }
+
+@font-face {
+    font-family: "LineSeedSansRegular";
+    font-weight: bold;
+    src: url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Bd.woff2) format('woff2'),
+        url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Bd.woff) format('woff'),
+        url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Bd.ttf) format('truetype');
+    }
+
+    h1 {
+        font-family: "LineSeedSansRegular";
+        font-size: 64px;
+        font-weight: bold;
+    }
+    
+    h3 {        
+        font-family: "LineSeedSansRegular";
+        font-size: 23px;
+        font-weight: normal;
+    }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E4DCD5 ;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 4em;
+}
+
+.btn {        
+    font-family: "LineSeedSansRegular";
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    background-color:black;
+    border-radius: 20px;
+    padding: 5;
+    width: 100%;
+}
+
+/* Remove default button styling */
+button {
+    background: none; /* Remove background */
+    padding: 10px;
+    border: none; /* Remove border */
+    font-family: "LineSeedSansRegular", sans-serif; /* Use the custom font */
+    font-size: 16px; /* Use the same font size as h3 */
+    font-weight: normal; /* Same weight as h3 */
+    color: inherit; /* Inherit text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.loginBlock {
+    background-color: white;
+    border-radius: 20px;
+    padding: 4em 8em 9em; /* Adjust padding (top/bottom to 3em to bring content closer) */
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 5em auto auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.corporateImage {
+    margin: auto auto auto 8em;
+    pointer-events: none; 
+    user-select: none;    
+    -webkit-user-drag: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+}
+
+/* Style the eye icon */
+.eye-icon {
+    position: absolute;
+    right: 10px;   /* Position it 10px from the right edge */
+    top: 50%;      /* Vertically center it */
+    transform: translateY(-50%); /* Fine-tune vertical centering */
+    font-size: 18px;  /* Size of the icon */
+    color: #888;   /* Color of the icon *//* Ensure the icon doesn't block text selection */
+}
+
+.eye-icon:hover {
+    color: #000; /* Darker color on hover */
+}
+
+/* Remove default styling from the inputs */
+input[type="text"], input[type="password"] {
+    border: none; /* Remove default border */
+    border-bottom: 1px solid #000; /* Add a single underline */
+    outline: none; /* Remove outline when clicked */
+    font-family: "LineSeedSansRegular", sans-serif; /* Apply the custom font */
+    font-size: 23px; /* Set the font size to match h3 */
+    font-weight: normal; /* Ensure font weight matches h3 */
+    color: #000; /* Text color */
+    background: transparent; /* Make background transparent */
+    padding: 5px 0; /* Adjust padding */
+    width: 100%; /* Make input width 100% of parent */
+}
+
+/* Placeholder styling */
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    font-family: "LineSeedSansRegular", sans-serif; /* Use the same font as h3 */
+    font-size: 23px; /* Same font size as h3 */
+    font-weight: normal; /* Same weight as h3 */
+    color: #888; /* Lighter color for placeholder text */
+}
+
+/* Optional: Focus styling for inputs (underline color change when focused) */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-bottom-color: #007BFF; /* Change underline color on focus */
+    outline: none; /* Remove outline on focus */
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    font-family: "LineSeedSansRegular", sans-serif; 
+    font-size: 23px; 
+    font-weight: normal; 
+    color: #888; 
+}
+
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-bottom-color: #007BFF; 
+    outline: none; 
+}
