@@ -25,7 +25,7 @@
                   <h3 style="font-weight: bold;"> Hi <?php echo  $_POST['username'];?> ! </h3>
               </div>
               <form action="mainer.php" method="post">
-                <button id="logout" type="submit"> Log Out </button>
+                <button id="logout" type="submit" name="logout"> Log Out </button>
               </form>
             </div>
             <div class="headerselector">
