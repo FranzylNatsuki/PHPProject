@@ -26,17 +26,23 @@ h3 {
     font-weight: normal;
 }
 
-body {
+.bodylogin {
     margin: 0;
     padding: 0;
-    background-color: #E4DCD5;
-    height: 100vh; /* Ensure full height */
+    background-color: #d6d3c3;
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.bodyhomepage {
+    margin: 0;
+    background-color: #d6d3c3;
+}
+
+/* LOGIN ELEMENTS */
 .form-group {
     margin: 20px;
 }
@@ -47,6 +53,7 @@ body {
     align-items: center;
     align-content: center;
     margin: 4em;
+    scale: 80%;
 }
 
 .btn {        
@@ -76,17 +83,17 @@ button {
 .loginBlock {
     background-color: white;
     border-radius: 20px;
-    padding: 3em 8em 7em;
+    padding: 5em 8em 6em;
     height: fit-content;
     width: fit-content;
     flex-direction: column;
     justify-content: center;
-    margin: auto 5em auto auto;
+    margin: auto 7em auto auto;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .corporateImage {
-    margin: auto auto auto 8em;
+    margin: auto auto auto 2em;
     pointer-events: none; 
     user-select: none;    
     -webkit-user-drag: none; 
@@ -131,4 +138,58 @@ input[type="text"]::placeholder, input[type="password"]::placeholder {
 input[type="text"]:focus, input[type="password"]:focus {
     border-bottom-color: #007BFF;
     outline: none;
+}
+
+/* Home ELEMENTS */
+
+.header { 
+    display: flex;
+    padding: 0em 8em ;
+    height: fit-content;
+    width: auto ;
+    display: flex;
+}
+
+
+.innerheader {
+    padding: 1em 4em;
+    position: relative;
+    display: flex;
+    border-bottom: black solid 2px ;
+    justify-content: space-between; /* Changed from center to space-between */
+    align-items: center; /* Changed from align-content to align-items */
+    width: 100%; /* Added to occupy full width */
+}
+
+.nameContainer {
+    margin-right: auto;
+    left: 0;
+    cursor: pointer;
+}
+
+.headerselector {
+    display: flex;
+    margin-left: auto;
+    right: 0;
+}
+
+.selectors {
+    margin: 0 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#cityText {
+    color: goldenrod;
+    font-size: 26px;
+    transform: translateY(-4px);
+}
+
+.mainContent {
+    background-color: aqua;
+    height: 100vh;
+    margin: 4em 8em;
 }
