@@ -1,9 +1,9 @@
 @font-face {
     font-family: "LineSeedSansRegular";
     font-weight: normal;
-    src: url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.woff2) format('woff2'), 
-        url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.woff) format('woff'), 
-        url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.ttf) format('truetype'); 
+    src: url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.woff2) format('woff2'),
+        url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.woff) format('woff'),
+        url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.ttf) format('truetype');
 }
 
 @font-face {
@@ -20,17 +20,23 @@ h1 {
     font-weight: bold;
 }
 
-h3 {        
+h3 {
     font-family: "LineSeedSansRegular";
     font-size: 23px;
     font-weight: normal;
+}
+
+span {
+  font-family: "LineSeedSansRegular";
+  font-size: 13px;
+  font-weight: normal;
 }
 
 .bodylogin {
     margin: 0;
     padding: 0;
     background-color: #d6d3c3;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +62,7 @@ h3 {
     scale: 80%;
 }
 
-.btn {        
+.btn {
     font-family: "LineSeedSansRegular";
     font-size: 16px;
     font-weight: normal;
@@ -77,7 +83,6 @@ button {
     font-weight: normal;
     color: inherit;
     cursor: pointer;
-    
 }
 
 .loginBlock {
@@ -94,12 +99,12 @@ button {
 
 .corporateImage {
     margin: auto auto auto 2em;
-    pointer-events: none; 
-    user-select: none;    
-    -webkit-user-drag: none; 
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
     -moz-user-select: none;
-    -webkit-user-select: none; 
-    -ms-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .eye-icon {
@@ -142,7 +147,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 
 /* Home ELEMENTS */
 
-.header { 
+.header {
     display: flex;
     padding: 0em 8em ;
     height: fit-content;
@@ -174,7 +179,11 @@ input[type="text"]:focus, input[type="password"]:focus {
 }
 
 .selectors {
-    margin: 0 1em;
+    margin: 0 16px;
+}
+
+.selectors:hover {
+  text-decoration: underline;
 }
 
 a {
@@ -189,7 +198,35 @@ a {
 }
 
 .mainContent {
-    background-color: aqua;
     height: 100vh;
-    margin: 4em 8em;
+    margin: 2em 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.left-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#logout {
+  background: none;
+  padding: 0;
+  border: none;
+  font-family: "LineSeedSansRegular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: inherit;
+  cursor: pointer;
+  margin-left: 1em;
+  transform: translateY(7px);
+}
+
+#logout:hover {
+  text-decoration: underline;
+}
+
+#backgroundImage {
+  overflow: hidden;
 }

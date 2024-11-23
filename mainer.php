@@ -1,5 +1,12 @@
-<?php /// For Scripting
+<?php
+session_start();
+
+if (isset($_POST['logout'])) {
+    session_unset();
+    session_destroy();
+}
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,5 +42,6 @@
         <img class="corporateImage" src="7871282.png" style="height: 45em;">
     </div>
     <script src="script.js"></script>
+
 </body>
 </html>

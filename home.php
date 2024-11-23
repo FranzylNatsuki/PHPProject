@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,11 +17,16 @@
     </style>
 </head>
 <body class="bodyhomepage">
-    <div class="header"> 
-        <div class="innerheader"> 
-            <img src="user-profile-4255.svg" style="height: 3em; width: auto; margin-right: 1em; pointer-events: none; cursor: pointer; user-select: none;"> 
-            <div class="nameContainer">
-                <h3 style="font-weight: bold;"> Hi Lorem! </h3>
+    <div class="header">
+        <div class="innerheader">
+            <img src="user-profile-4255.svg" style="height: 3em; width: auto; margin-right: 1em; pointer-events: none; cursor: pointer; user-select: none;">
+            <div class="left-wrapper">
+              <div class="nameContainer">
+                  <h3 style="font-weight: bold;"> Hi <?php echo  $_POST['username'];?> ! </h3>
+              </div>
+              <form action="mainer.php" method="post">
+                <button id="logout" type="submit"> Log Out </button>
+              </form>
             </div>
             <div class="headerselector">
                 <a href="#"> <h3 class="selectors"> Home </h3> </a>
@@ -28,7 +37,7 @@
         </div>
     </div>
     <div class="mainContent">
-
+      <img src="silliman-breaker-01-1569324831.jpg" id="backgroundImage">
     </div>
 </body>
 </html>
