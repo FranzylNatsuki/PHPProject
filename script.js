@@ -11,3 +11,4 @@ function togglePassword() {
             eyeIcon.innerHTML = '&#128065;';
         }
     }
+    // cool
