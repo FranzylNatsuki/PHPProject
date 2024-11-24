@@ -38,7 +38,7 @@
     </div>
     <div class="mainContent">
       <div class="banner">
-        <img src="silliman-breaker-01-1569324831.png" id="backgroundImage">
+        <img src="bannerpic.png" id="backgroundImage">
       </div>
       <div class="textArea">
         <h4 style="margin-bottom: 1em; text-indent: 4em;"> 
