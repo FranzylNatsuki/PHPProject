@@ -37,7 +37,19 @@
         </div>
     </div>
     <div class="mainContent">
-      <img src="silliman-breaker-01-1569324831.jpg" id="backgroundImage">
+      <img src="silliman-breaker-01-1569324831.png" id="backgroundImage">
+    </div>
+    <div>
+      <div>
+        <h3> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </h3>
+        <div class="jsButton" onclick="stageFunction()"> Press Me!
+        </div>
+      </div>
+      <div>
+        <img src="">
+        <img src="">
+        <img src="">
+      </div>
     </div>
 </body>
 </html>

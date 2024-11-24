@@ -42,6 +42,6 @@ if (isset($_POST['logout'])) {
         <img class="corporateImage" src="7871282.png" style="height: 45em;">
     </div>
     <script src="script.js"></script>
-
+    <!-- Commit test -->
 </body>
 </html>
