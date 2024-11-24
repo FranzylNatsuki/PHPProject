@@ -21,7 +21,7 @@
                   <h3 style="font-weight: bold;"> Hi <?php echo  $_POST['username'];?> ! </h3>
               </div>
               <form action="mainer.php" method="post">
-                <button id="logout" type="submit"> Log Out </button>
+                <button id="logout" type="submit" name="logout"> Log Out </button>
               </form>
             </div>
             <div class="headerselector">
@@ -33,7 +33,19 @@
         </div>
     </div>
     <div class="mainContent">
-      <img src="silliman-breaker-01-1569324831.jpg" id="backgroundImage">
+      <div class="banner">
+        <img src="silliman-breaker-01-1569324831.png" id="backgroundImage">
+      </div>
+      <div class="textArea">
+        <h4 style="margin-bottom: 1em; text-indent: 4em;"> 
+          University (also referred to as Silliman or SU) is a private research university in Dumaguete, Philippines. Established in 1901 as Silliman Institute by the Presbyterian Board of Foreign Missions, it is the first American and Protestant founded institution of higher learning in the Philippines and in Asia.
+        </h4>
+          <div id="jsButton" onclick="stageFunction()"> <h4> Press Me! </h4> </div>
+      </div>
+      <div class="setPictures1"> <img id="img1" src="Cropped_Image.png"> </div>
+      <div class="setPictures2"> <img id="img1" src="Cropped_Image (2).png"> </div>
+      <div class="setPictures3"> <img id="img1" src="Cropped_Image (1).png"> </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

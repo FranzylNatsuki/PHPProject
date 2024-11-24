@@ -26,6 +26,12 @@ h3 {
     font-weight: normal;
 }
 
+h4 {
+    font-family: "LineSeedSansRegular";
+    font-size: 19px;
+    font-weight: normal;
+}
+
 span {
   font-family: "LineSeedSansRegular";
   font-size: 13px;
@@ -198,10 +204,94 @@ a {
 }
 
 .mainContent {
-    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(10em, auto);
     margin: 2em 8em;
+    justify-content: center;
+}
+
+.banner {
+    grid-column: 1 / -1; /* Spans all grid columns */
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove auto margins */
+    padding: 0; /* Remove potential padding */
+}
+
+
+#backgroundImage {
+    border-radius: 20px;
+    width: 100%;
+    width: 100%; 
+    border-radius: 20px; 
+    pointer-events: none; 
+    user-select: none;
+  }
+  
+.textArea {
+    grid-column: 1 / 4;
+    grid-row: 2; 
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center ;
+    text-align: justify;
+}
+
+.setPictures1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 4;
+    grid-row: 2; 
+}
+.setPictures2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 5;
+    grid-row: 2; 
+}
+.setPictures3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 6;
+    grid-row: 2; 
+}
+
+#img1 {
+    width: 100%; 
+    border-radius: 20px; 
+    pointer-events: none; 
+    user-select: none;
+}
+
+#img2 {
+    width: 100%; 
+    border-radius: 20px; 
+    pointer-events: none; 
+    user-select: none;
+}
+
+#img3 {
+    width: 100%; 
+    border-radius: 20px; 
+    pointer-events: none; 
+    user-select: none;
+}
+
+#jsButton {
+    background-color: crimson;
+    padding: 1em 2em;
+    border-radius: 20px;
+    cursor: grab;
+    pointer-events: auto;
 }
 
 .left-wrapper {
@@ -209,6 +299,8 @@ a {
   align-content: center;
   justify-content: center;
 }
+
+
 
 #logout {
   background: none;
@@ -225,8 +317,4 @@ a {
 
 #logout:hover {
   text-decoration: underline;
-}
-
-#backgroundImage {
-  overflow: hidden;
 }

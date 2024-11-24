@@ -37,19 +37,19 @@
         </div>
     </div>
     <div class="mainContent">
-      <img src="silliman-breaker-01-1569324831.png" id="backgroundImage">
-    </div>
-    <div>
-      <div>
-        <h3> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </h3>
-        <div class="jsButton" onclick="stageFunction()"> Press Me!
-        </div>
+      <div class="banner">
+        <img src="silliman-breaker-01-1569324831.png" id="backgroundImage">
       </div>
-      <div>
-        <img src="">
-        <img src="">
-        <img src="">
+      <div class="textArea">
+        <h4 style="margin-bottom: 1em; text-indent: 4em;"> 
+          University (also referred to as Silliman or SU) is a private research university in Dumaguete, Philippines. Established in 1901 as Silliman Institute by the Presbyterian Board of Foreign Missions, it is the first American and Protestant founded institution of higher learning in the Philippines and in Asia.
+        </h4>
+          <div id="jsButton" onclick="stageFunction()"> <h4> Press Me! </h4> </div>
       </div>
+      <div class="setPictures1"> <img id="img1" src="Cropped_Image.png"> </div>
+      <div class="setPictures2"> <img id="img1" src="Cropped_Image (2).png"> </div>
+      <div class="setPictures3"> <img id="img1" src="Cropped_Image (1).png"> </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
