@@ -29,10 +29,10 @@
               </form>
             </div>
             <div class="headerselector">
-                <a href="#"> <h3 class="selectors"> Home </h3> </a>
-                <a href="#"> <h3 id="cityText" class="selectors"> Dumaguete </h3> </a>
-                <a href="#"> <h3 class="selectors"> Gallery </h3> </a>
-                <a href="#"> <h3 class="selectors"> Content </h3> </a>
+                <a href="home.php"> <h3 class="selectors"> Home </h3> </a>
+                <a href="hometown.php"> <h3 id="cityText" class="selectors"> Dumaguete </h3> </a>
+                <a href="gallery.php"> <h3 class="selectors"> Gallery </h3> </a>
+                <a href="contact.php"> <h3 class="selectors"> Contact </h3> </a>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
         <img src="bannerpic.png" id="backgroundImage">
       </div>
       <div class="textArea">
-        <h4 style="margin-bottom: 1em; text-indent: 4em;"> 
+        <h4 style="margin-bottom: 1em; text-indent: 4em;">
           University (also referred to as Silliman or SU) is a private research university in Dumaguete, Philippines. Established in 1901 as Silliman Institute by the Presbyterian Board of Foreign Missions, it is the first American and Protestant founded institution of higher learning in the Philippines and in Asia.
         </h4>
           <div id="jsButton" onclick="stageFunction()"> <h4> Press Me! </h4> </div>
