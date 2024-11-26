@@ -1,3 +1,43 @@
+@font-face {
+  font-family: "LineSeedSansRegular";
+  font-weight: normal;
+  src: url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.woff2) format('woff2'),
+      url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.woff) format('woff'),
+      url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Rg.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "LineSeedSansRegular";
+  font-weight: bold;
+  src: url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Bd.woff2) format('woff2'),
+      url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Bd.woff) format('woff'),
+      url(https://raw.githubusercontent.com/FranzylNatsuki/franzylnatsuki.github.io/refs/heads/main/FONTS/LINESeedSans_W_Bd.ttf) format('truetype');
+}
+
+h1 {
+  font-family: "LineSeedSansRegular";
+  font-size: 64px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "LineSeedSansRegular";
+  font-size: 23px;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: "LineSeedSansRegular";
+  font-size: 19px;
+  font-weight: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
 * {
     margin: 0;
     padding: 0;

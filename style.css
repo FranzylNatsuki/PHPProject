@@ -337,7 +337,7 @@ a {
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   grid-auto-rows: max(12em);
-  grid-auto-columns: : max(12em);
+  grid-auto-columns: max(12em);
   margin: 2em 8em;
   justify-content: center;
   background: white;
