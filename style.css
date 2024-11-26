@@ -41,7 +41,7 @@ span {
 .bodylogin {
     margin: 0;
     padding: 0;
-    background-color: #d6d3c3;
+    background-image: linear-gradient(to right, #e5ffd4, #d4ffd6, #d4ffe7);
     height: 100vh;
     display: flex;
     justify-content: center;

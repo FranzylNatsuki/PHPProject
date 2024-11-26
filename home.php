@@ -23,7 +23,7 @@
 <body class="bodyhomepage">
     <div class="header">
         <div class="innerheader">
-            <img src="user-profile-4255.svg" style="height: 3em; width: auto; margin-right: 1em; pointer-events: none; cursor: pointer; user-select: none;">
+            <img src="images/user-profile-4255.svg" style="height: 3em; width: auto; margin-right: 1em; pointer-events: none; cursor: pointer; user-select: none;">
             <div class="left-wrapper">
               <div class="nameContainer">
                   <h3 style="font-weight: bold;"> Hi <?php echo  $_SESSION['username'];?> ! </h3>
@@ -42,7 +42,7 @@
     </div>
     <div class="mainContent">
       <div class="banner">
-        <img src="bannerpic.png" id="backgroundImage">
+        <img src="images/bannerpic.png" id="backgroundImage">
       </div>
       <div class="textArea">
         <h4 style="margin-bottom: 1em; text-indent: 4em;">
@@ -50,9 +50,9 @@
         </h4>
           <div id="jsButton" onclick="stageFunction()"> <h4> Press Me! </h4> </div>
       </div>
-      <div class="setPictures1"> <img id="img1" src="Cropped_Image.png"> </div>
-      <div class="setPictures2"> <img id="img1" src="Cropped_Image (2).png"> </div>
-      <div class="setPictures3"> <img id="img1" src="Cropped_Image (1).png"> </div>
+      <div class="setPictures1"> <img id="img1" src="images/Cropped_Image.png"> </div>
+      <div class="setPictures2"> <img id="img1" src="images/Cropped_Image (2).png"> </div>
+      <div class="setPictures3"> <img id="img1" src="images/Cropped_Image (1).png"> </div>
     </div>
     <script src="script.js"></script>
 </body>

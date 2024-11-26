@@ -5,7 +5,6 @@ if (isset($_POST['logout'])) {
     session_unset();
     session_destroy();
 }
-
 ?>
 
 
@@ -21,7 +20,7 @@ if (isset($_POST['logout'])) {
     <div class="loginPage">
         <div class="loginBlock">
             <center>
-                <img src="logindecor.svg" style="height: 10px;">
+                <img src="images/logindecor.svg" style="height: 10px;">
                 <h1 style="margin-top: 0; margin-bottom: 1px;"> Welcome! </h1>
                 <h3 style="margin-bottom: 4em;"> Please Enter Your Details! </h3>
                 <div class="form-container">
@@ -40,7 +39,7 @@ if (isset($_POST['logout'])) {
                 </div>
             </center>
         </div>
-        <img class="corporateImage" src="7871282.png" style="height: 45em;">
+        <img class="corporateImage" src="images/7871282.png" style="height: 45em;">
     </div>
     <script src="script.js"></script>
     <!-- Commit test -->
