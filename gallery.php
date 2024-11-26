@@ -37,16 +37,16 @@
         </div>
     </div>
     <div class="galleryBoy">
-      <div class="gallery1 globalGallery" > 1 </div>
-      <div class="gallery2 globalGallery"> 2 </div>
-      <div class="gallery3 globalGallery"> 3 </div>
-      <div class="gallery4 globalGallery"> 4 </div>
-      <div class="gallery5 globalGallery"> 5 </div>
-      <div class="gallery6 globalGallery"> 6 </div>
-      <div class="gallery7 globalGallery"> 7 </div>
-      <div class="gallery8 globalGallery"> 8 </div>
-      <div class="gallery9 globalGallery"> 9 </div>
-      <div class="gallery10 globalGallery"> 10 </div>
+      <div class="gallery1 globalGallery"> <img class="globalGalleryImg" src="458985190_122154179738253021_5809505008943838644_n.jpg"> </div> <!--1-->
+      <div class="gallery2 globalGallery"> <img class="globalGalleryImg" src="7f1f76c6-3448-43fd-b38d-57a024033d3d_dumaguete-casaroro-falls-medium.jpg"> </div> <!--2-->
+      <div class="gallery3 globalGallery"> <img class="globalGalleryImg" src="National_Museum_Negros_Oriental.jpg"> </div> <!--3-->
+      <div class="gallery4 globalGallery"> <img class="globalGalleryImg" src="Dumaguete-City-Facts.jpg"> </div> <!--4-->
+      <div class="gallery5 globalGallery"> <img class="globalGalleryImg" src="458981675_2513913245460797_7666216691689845139_n.jpg"> </div> <!--5-->
+      <div class="gallery6 globalGallery"> <img class="globalGalleryImg" src="462191610_2541748472677274_1961808319442160086_n.jpg"> </div> <!--6-->
+      <div class="gallery7 globalGallery"> <img class="globalGalleryImg" src="391702071_711758520998502_2719739560590278704_n.jpg"> </div> <!--7-->
+      <div class="gallery8 globalGallery"> <img class="globalGalleryImg" src="455753832_122147988440253021_1508034820211835496_n.jpg"> </div> <!--8-->
+      <div class="gallery9 globalGallery"> <img class="globalGalleryImg" src="391702071_711758520998502_2719739560590278704_n.jpg"> </div> <!--9-->
+      <div class="gallery10 globalGallery"> <img class="globalGalleryImg" src="436203108_735118802145542_724693089564734720_n.jpg"> </div> <!--10-->
     </div>
     <script src="script.js"></script>
 </body>
