@@ -1,5 +1,9 @@
 <?php
   session_start();
+  if ($_SERVER["REQUEST_METHOD"] == "POST")
+  {
+    $_SESSION["username"] = $_POST["username"];
+  }
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +26,7 @@
             <img src="user-profile-4255.svg" style="height: 3em; width: auto; margin-right: 1em; pointer-events: none; cursor: pointer; user-select: none;">
             <div class="left-wrapper">
               <div class="nameContainer">
-                  <h3 style="font-weight: bold;"> Hi <?php echo  $_POST['username'];?> ! </h3>
+                  <h3 style="font-weight: bold;"> Hi <?php echo  $_SESSION['username'];?> ! </h3>
               </div>
               <form action="mainer.php" method="post">
                 <button id="logout" type="submit" name="logout"> Log Out </button>
