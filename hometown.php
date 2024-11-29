@@ -37,35 +37,32 @@
         </div>
     </div>
     <main>
-      <div class="form-section">
-        <form id="contactForm">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
-
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
-
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-
-      <div class="contact-info">
-        <h2>Contact Us</h2>
-        <p>Contact us for questions, technical assistance, or collaboration opportunities via the contact information provided.</p>
-        <ul>
-          <li><span>📞</span> +123-456-7890</li>
-          <li><span>📧</span> hello@reallygreatsite.com</li>
-          <li><span>📍</span> 123 Anywhere ST., Any City, 12345</li>
-        </ul>
-      </div>
+        <section class="hero">
+            <img src="dumaguete.jpg" alt="Dumaguete City">
+            <div class="hero-text">
+                <h1>Dumaguete City</h1>
+                <h3>The city of gentle people</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+        <section class="city-highlights">
+            <h2>City Highlights</h2>
+            <div class="highlights-grid">
+                <div class="highlight">
+                    <img src="quezonpark.jpg" alt="Quezon park">
+                    <p>Quezon park</p>
+                </div>
+                <div class="highlight">
+                    <img src="apoisland.jpg" alt="Apo Island">
+                    <p>Apo island</p>
+                </div>
+                <div class="highlight">
+                    <img src="mttalinis.jpeg" alt="Mount Talinis">
+                    <p>Mount Talinis</p>
+                </div>
+            </div>
+        </section>
     </main>
-  </div>
-  <script src="script2.js"></script>
 </body>
 </html>
