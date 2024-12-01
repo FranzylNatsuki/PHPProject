@@ -24,7 +24,7 @@
               <div class="nameContainer">
                   <h3 style="font-weight: bold;"> Hi <?php echo  $_SESSION['username'];?> ! </h3>
               </div>
-              <form action="mainer.php" method="post">
+              <form action="index.php" method="post">
                 <button id="logout" type="submit" name="logout"> Log Out </button>
               </form>
             </div>

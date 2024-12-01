@@ -19,7 +19,7 @@ if (isset($_POST['logout'])) {
 <body class="bodylogin">
     <div class="loginPage">
         <div class="loginBlock">
-            <center> 
+            <center>
                 <img src="images/logindecor.svg" style="height: 10px;">
                 <h1 style="margin-top: 0; margin-bottom: 1px;"> Welcome! </h1>
                 <h3 style="margin-bottom: 4em;"> Please Enter Your Details! </h3>

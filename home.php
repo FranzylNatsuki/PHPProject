@@ -28,7 +28,7 @@
               <div class="nameContainer">
                   <h3 style="font-weight: bold;"> Hi <?php echo  $_SESSION['username'];?> ! </h3>
               </div>
-              <form action="mainer.php" method="post">
+              <form action="index.php" method="post">
                 <button id="logout" type="submit" name="logout"> Log Out </button>
               </form>
             </div>
@@ -42,17 +42,38 @@
     </div>
     <div class="mainContent">
       <div class="banner">
-        <img src="images/bannerpic.png" id="backgroundImage">
+        <img src="images/cover-photo-dumaguete-city.jpg" id="backgroundImage">
       </div>
       <div class="textArea">
         <h4 style="margin-bottom: 1em; text-indent: 4em;">
-          University (also referred to as Silliman or SU) is a private research university in Dumaguete, Philippines. Established in 1901 as Silliman Institute by the Presbyterian Board of Foreign Missions, it is the first American and Protestant founded institution of higher learning in the Philippines and in Asia.
+            Welcome to our website! We are Franzyl and Jodel, two passionate developers dedicated to showcasing the beauty and culture of our hometown, Dumaguete. In this project, CCS 1, we’ve combined our skills in HTML, CSS, PHP, and JavaScript to create a website that highlights the rich history, vibrant community, and scenic attractions of Dumaguete. We hope you enjoy exploring Dumaguete through our eyes and experience the charm of our hometown!
         </h4>
           <div id="jsButton" onclick="stageFunction()"> <h4> Press Me! </h4> </div>
       </div>
-      <div class="setPictures1"> <img id="img1" src="images/Cropped_Image.png"> </div>
+      <div class="setPictures1"> <img id="img1" src="images/Cropped_Image (3).png"> </div>
       <div class="setPictures2"> <img id="img1" src="images/Cropped_Image (2).png"> </div>
       <div class="setPictures3"> <img id="img1" src="images/Cropped_Image (1).png"> </div>
+      <div id="javing">
+        <div class="jav1 javers">
+          <h2 class="boxHead"> Bio </h2>
+          <div class="boxContent">
+            <h4> I am Franzyl Macalua, a Computer Science Student. I like learning coding languages and practicing my LeetCode skills. </h4> <br>
+            <h4> I am Jodel Doloricon, a passionate Computer Science student. I'm actively learning coding languages and enthusiastically developing my skills on LeetCode. </h4>
+          </div>
+        </div>
+        <div class="jav2 javers">
+          <h2 class="boxHead"> About </h2>
+          <div class="boxContent">
+            <h3> This is a website that showcases the beauty and culture of Dumaguete City. Dumaguete City is the capital of Negros Oriental, Philippines. It's known for its beautiful beaches, dive sites and vibrant culture. </h3>
+          </div>
+        </div>
+        <div class="jav3 javers">
+          <h2 class="boxHead"> Submission </h2>
+          <div class="boxContent">
+            <h3> This output was created as a partial submission for CCS 1: Introduction to Computing. </h3>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
 </body>
