@@ -22,7 +22,14 @@
             <img src="images/user-profile-4255.svg" style="height: 3em; width: auto; margin-right: 1em; pointer-events: none; cursor: pointer; user-select: none;">
             <div class="left-wrapper">
               <div class="nameContainer">
-                  <h3 style="font-weight: bold;"> Hi <?php echo  $_SESSION['username'];?> ! </h3>
+                  <h3 style="font-weight: bold;">
+                    <?php
+                      if (isset($_SESSION['username']))
+                          echo  "Hi " . $_SESSION['username'] . "!";
+                      else
+                          echo "Logged in as Guest!";
+                    ?>
+                  </h3>
               </div>
               <form action="index.php" method="post">
                 <button id="logout" type="submit" name="logout"> Log Out </button>
