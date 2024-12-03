@@ -58,7 +58,7 @@
           <div id="jsButton" onclick="stageFunction()"> <h4> Press Me! </h4> </div>
       </div>
       <div class="setPictures1"> <img id="img1" src="images/Cropped_Image (3).png"> </div>
-      <div class="setPictures2"> <img id="img1" src="images/Cropped_Image (2).png"> </div>
+      <div class="setPictures2"> <img id="img1" src="images/images/1674ee74-e211-4d75-b6e2-9aae2313c587.jpeg"> </div>
       <div class="setPictures3"> <img id="img1" src="images/Cropped_Image (1).png"> </div>
       <div id="javing">
         <div class="jav1 javers">
